@@ -132,3 +132,16 @@ body {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   margin: 20px 0;
 }
+.filters {
+  position: fixed;
+  left: 250px;
+  top: 60px;
+  width: calc(100% - 250px);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fff;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
